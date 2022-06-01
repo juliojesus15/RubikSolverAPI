@@ -1,0 +1,26 @@
+{
+  "name": "rubiksolverapi",
+  "version": "1.0.0",
+  "description": "Solver for Rubik Cube - Computer Graphics(UCSP)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliojesus15/RubikSolverAPI.git"
+  },
+  "author": "Julio Ticona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliojesus15/RubikSolverAPI/issues"
+  },
+  "homepage": "https://github.com/juliojesus15/RubikSolverAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
