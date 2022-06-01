@@ -8,7 +8,7 @@ app.set('port', process.env.PORT || 4000);
 
 // Routes
 app.get('/', (req, res) => {
-  res.send("Rubik's Cube Solver - API")
+  res.send("Rubik's Cube Solver")
 })
 
 app.get('/solver/:keys', async (req, res) => {      
